@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{495d98d0-6a53-4f82-9cd9-b8667020f068}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Dialogs">
+      <UniqueIdentifier>{52b78ea1-6a4a-4dd2-9d06-c156bad3d6a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Docs">
+      <UniqueIdentifier>{6cc2ea26-38d0-464c-bc18-f72269feedd9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Views">
+      <UniqueIdentifier>{98a61fff-7020-4bea-b0e2-138d94f4271e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\UI">
+      <UniqueIdentifier>{56bf2b2e-f059-4698-80f5-b4a951e83b05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Core">
+      <UniqueIdentifier>{cd764b0e-dbb3-424a-af2b-5c51853c49e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Docs">
+      <UniqueIdentifier>{67db6e64-10eb-4ec8-8c65-70200b4c11f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Dialogs">
+      <UniqueIdentifier>{363c0880-7624-4b2c-8420-8333f317a765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\UI">
+      <UniqueIdentifier>{9ca0ee8a-50f2-4d4b-9800-9f63660e6cf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Views">
+      <UniqueIdentifier>{124b6a39-a62d-4e9e-aa97-54dcc778df63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ErrorDetection.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorDetectionDoc.h">
+      <Filter>헤더 파일\Docs</Filter>
+    </ClInclude>
+    <ClInclude Include="ErrorDetectionView.h">
+      <Filter>헤더 파일\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputWnd.h">
+      <Filter>헤더 파일\UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="OutputWnd.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorDetectionDoc.cpp">
+      <Filter>소스 파일\Docs</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorDetectionView.cpp">
+      <Filter>소스 파일\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="ErrorDetection.cpp">
+      <Filter>소스 파일\UI</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ErrorDetection.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\output_wnd.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\output_wnd_hc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\userimages.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ErrorDetectionDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\ErrorDetection.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar256.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\ErrorDetection.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+</Project>
